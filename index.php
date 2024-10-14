@@ -15,9 +15,7 @@
      
     <nav class="navbar">
         
-        <div class="logo">
-            <a href="index.html">Shri Hanumat Capital Services Private Limited</a>
-        </div>
+       
 
         
         <ul class="nav-links">
@@ -65,7 +63,7 @@
         </div>
         <div class="ab">
             <h2>Start Your Investment With SIP</h2>
-       <a href="sip.php"> <img src="sip.webp" alt="" srcset=""></a>
+       <a href="plain.php"> <img src="sip.webp" alt="" srcset=""></a>
         </div>
         
         <!-- <div class="service-grid">
