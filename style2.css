@@ -181,7 +181,7 @@ ul.socials {
     margin: 20px 0;
 }
 
-ul.socials li a {
+.socials li a {
     color: white;
     font-size: 20px;
     transition: color 0.3s;

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Shri Hanumat Capital Services</title>
     <link rel="stylesheet" href="style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <!-- Navbar -->
@@ -82,7 +84,7 @@
             <ul class="socials">
             <li><a href="https://www.facebook.com/share/JaFez9VAptHvSKux/"><i class='bx bxl-facebook-circle'></i></a></li>
                 <li><a href="https://x.com/services37736?t=1p9mH_NBXTFVBquX6vAdpQ&s=09"><i class='bx bxl-twitter' ></i></a></li>
-                <li><a href="#"><i class='bx bxl-linkedin-square' ></i></a></li>
+                <li><a href="www.linkedin.com/in/shri-hanumat-capital-services-pvt-ltd-a50107333"><i class='bx bxl-linkedin'></i></a></li>
                 <li><a href="https://www.instagram.com/shrihanumat_pvtltd/profilecard/?igsh=Mmo5eGFtcDFheHhq"><i class="bx bxl-instagram"></i></a></li>
                 <li><a href="https://youtube.com/@shrihanumatcapitalservices?si=FeBMokmFT3OO3bmb"><i class='bx bxl-youtube'></i></a></li>
 
