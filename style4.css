@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #840ea8, #b16f0b, #1dafd0);
+
+  
+}
+
+header {
+  background: linear-gradient(90deg, #011d2b, #0088cc, #011d2b);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  color: aqua;
+}
+nav h1{
+  display: flex;
+}
+
+.hero {
+  /* background-image: url('background.jpg'); */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url('contact.jpeg') center/cover no-repeat; */
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #011d2b, #0088cc, #011d2b);
+  
+  
+}
+
+.contact-info div {
+  flex: 1;
+  margin: 0 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-info div h3 {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  padding: 50px 20px;
+  text-align: center;
+  
+
+  background: linear-gradient(90deg, #011d2b, #0088cc, #011d2b);
+ 
+
+}
+
+
+.contact-form input, .contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: aliceblue;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+footer {
+  /* background-color: #333; */
+  background-color: #032243;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.footer-content {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer p {
+  margin: 10px 0;
+  color: #fff;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+ul.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul.socials li a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+ul.socials li a:hover {
+  color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info div {
+    margin-bottom: 20px;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+  }
+}
+
+.contact-form {
+  padding: 50px 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  margin-top: -10rem;
+  
+}
+
+.contact-form h2 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 90%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  transition: border-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-size: 1.1em;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  border-color: #00aaff;
+  box-shadow: 0 0 5px rgba(0, 170, 255, 0.5);
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #00aaff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 8px 15px rgba(0, 170, 255, 0.2);
+}
+
+.contact-form button:hover {
+  background-color: #0088cc;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 136, 204, 0.3);
+}
+
+.contact-form button:active {
+  transform: translateY(2px);
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 87, 120);
+    color: aliceblue;
+    font-size: large;
+    
+}
+input{
+    width: 14rem;
+    height: 2rem;
+    border: 1px solid #fff;
+}
+#exportBtn{
+    border: 1px solid #fff;
+    width: 12rem;
+}

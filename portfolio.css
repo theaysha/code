@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #007BFF, #0056b3);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f0f0f0;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #007BFF;
+}
+
+.portfolio-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height for square shape */
+    display: inline-block; /* Align cards in a row */
+}
+
+.portfolio-card:hover {
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.8);
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.portfolio-details {
+    padding: 20px;
+    background: #f9f9f9;
+    display: none; /* Hidden by default */
+}
+
+.investment-graph {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}

@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0c243f;
+    
+}
+
+header {
+    /* background: #007BFF; */
+    background-color: #021529;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5rem;
+    font-size: larger;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    height: 2px;
+    width: 25px;
+    background: white;
+    margin: 4px 0;
+}
+h3{
+    color: #fff;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 28px;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+.cta {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+#services,
+#facilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card,
+.facility-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease; /* Transition for glow effect */
+}
+
+.service-card:hover,
+.facility-card:hover {
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.8);
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.details {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Fade transition */
+    display: none; /* Hide details initially */
+}
+
+.show {
+    display: block; /* Show when active */
+    opacity: 1; /* Fade in */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-active {
+        display: flex;
+    }
+
+    .service-card,
+    .facility-card {
+        width: 90%; /* Full width on smaller screens */
+        height: auto; /* Adjust height to content */
+    }
+}
