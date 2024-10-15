@@ -11,28 +11,27 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-     
-    <nav class="navbar">
-        
-       
 
-        
-        <ul class="nav-links">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href=" our services.php">Our Services</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="sip info.php">SIP</a></li>
+<nav class="navbar">
+        <div class="container">
+            <h2>Shri Hanumat Capital Services Private Limited</h2>
+            <ul class="nav-links">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php" class="active">About Us</a></li>
+                <li><a href="our services.php"> Our Services</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="sip info.php">SIP</a></li>
+                <li><a href="login.php">LOGIN</a></li>
+                <div class="go">
+                    <a href="term.php">Term & Conditions</a>
+                </div>
 
-            <li><a href="login.php" >Login</a></li>
-            <div class="go">
-        <a href="term.php">Terms & Conditions</a>
 
+
+                
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
         </div>
-
-        </ul>
-        <div class="menu-toggle">&#9776;</div>
     </nav>
     
 
