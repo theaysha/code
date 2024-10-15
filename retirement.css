@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    /* padding: 20px; */
+}
+.navbar {
+    background: #0b2f69;
+    
+    color: #fff;
+    padding: 10px 0;
+    
+}
+h2{
+    padding: 0 20px;
+}
+
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px; 
+    transition: background 0.3s; 
+    font-size: larger;
+    
+}
+
+.nav-links a:hover {
+    color:aqua; 
+
+}
+.nav-links a.active {
+    background-color: #ff4500;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #2d0130, #a30bb1, #2b0124);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    box-shadow: 0 0 20px rgba(11, 50, 177, 0.7), 
+                0 0 40px rgba(11, 50, 177, 0.6),
+                0 0 60px rgba(11, 50, 177, 0.5);
+
+}
+
+
+canvas {
+    max-width: 100%; /* Responsive canvas */
+    margin-top: 20px; /* Spacing above the chart */
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #c20969;
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 2rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+canvas {
+    max-width: 100%; 
+    height: 300px; 
+    margin-top: 20px;
+}
+

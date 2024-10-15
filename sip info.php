@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="sip info.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
+<nav class="navbar">
+        <div class="container">
+            <h2>Shri Hanumat Capital Services Private Limited</h2>
+            <ul class="nav-links">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php" class="active">About Us</a></li>
+                <li><a href="our services.php"> Our Services</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="retirem.php">retirement Planning</a></li>
+
+
+            </ul>
+        </div>
+    </nav>
+   
     <section>
         <h1>WHY YOU SHOULD INVEST IN SIP</h1><br><br><br>
 <h2>A Systematic Investment Plan (SIP) is a method of investing in mutual funds in a disciplined and regular manner. <br> Instead of investing a lump sum, investors contribute a fixed amount at regular intervals—typically <br>monthly or quarterly—into a chosen mutual fund. SIPs are popular because they  offer convenience, <br>affordability, and help in building long-term wealth by averaging out market volatility.
@@ -28,10 +45,26 @@ Reduces Market Timing Risk: SIPs remove the need to time the market, as your inv
 
 </p>
 </section>
+<img src="sip sip.webp" alt="">
 
 <a href="sip.php"><button>Calculate Your SIP</button></a>
 
 
+<footer>
+        <div class="footer-content">
+            <p>Contact: info@shrihanumatcapital.com | +91 9911171525</p>
+            <ul class="socials">
+            <li><a href="https://www.facebook.com/share/JaFez9VAptHvSKux/"><i class='bx bxl-facebook-circle'></i></a></li>
+                <li><a href="https://x.com/services37736?t=1p9mH_NBXTFVBquX6vAdpQ&s=09"><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href="https://linkedin.com/in/shri-hanumat-capital-services-pvt-ltd-a50107333"></a><i class='bx bxl-linkedin'></i></a></li>
+                <li><a href="https://www.instagram.com/shrihanumat_pvtltd/profilecard/?igsh=Mmo5eGFtcDFheHhq"><i class="bx bxl-instagram"></i></a></li>
+                <li><a href="https://youtube.com/@shrihanumatcapitalservices?si=FeBMokmFT3OO3bmb"><i class='bx bxl-youtube'></i></a></li>
 
+
+            </ul>
+            <p>Shri Hanumat Capital Services Private Limited © <span id="year"></span>. All Rights Reserved.</p>
+            <a href="term.php">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
 </body>
 </html>

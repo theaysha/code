@@ -1,34 +1,187 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(6, 6, 80);
     color: #fff;
 }
-H1{
-    color: aliceblue;
-    margin-left: 38rem;
+
+body {
+    background-color: rgb(6, 6, 80); /* Move background color here */
 }
-section p{
+
+/* Navbar Container */
+.navbar {
+    background: linear-gradient(45deg, #1e3c72, #2a5298); /* Gradient background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+img {
+    width: 30rem;
+    height: 40vh;
+    position: relative;
+    border-radius: 10px;
+    top: -38rem;
+    margin-left: 70%;
+}
+
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar Brand/Logo */
+.navbar h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar h2:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Navbar Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    padding: 10px 15px;
+    /* border-radius: 4px; */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Link Hover Effect */
+.nav-links a:hover {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    transform: translateY(-3px); /* Subtle lift effect */
+    color: aqua;
+}
+
+/* Active Link Styling */
+.nav-links a.active {
+    background-color: #ff4500;
+    
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+}
+
+/* Section Heading */
+h1 {
+    color: aliceblue;
+    text-align: center; /* Center text instead of using margin-left */
+    margin-top: 2rem; /* Add some space above */
+}
+
+/* Section Paragraph */
+section p {
     font-weight: bold;
     margin-top: 3rem;
-    gap: 2rem;
     font-size: larger;
 }
-section{
+
+/* Section General */
+section {
     padding: 2rem 2rem;
 }
+
+/* Button Styling */
 button {
-    margin-left: 50rem;
+    display: block;
+    margin: 2rem auto; /* Center button */
     width: 10rem;
     height: 3rem;
     border-radius: 10px;
     border: 2px solid #fff;
     background: transparent;
-    transition: box-shadow 0.3s ease; /* Smooth transition */
+    transition: box-shadow 0.3s ease; 
+    margin-top: -20rem;
 }
 
 button:hover {
     box-shadow: 0 0 15px 5px palegoldenrod; /* Glow effect */
 }
+
+footer {
+    /* background-color: #333; */
+    background-color: #032243;
+    color: white;
+    text-align: center;
+    height: 15rem;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer-content {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+ul.socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.socials li a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+ul.socials li a:hover {
+    color: #007bff;
+}
+
 

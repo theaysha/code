@@ -79,6 +79,12 @@ nav ul li a:hover{
     color: #fff;
     cursor: pointer;
 }
+.navbar .container {
+    display: flex;
+    justify-content: space-between; /* Ensures the space between h2 and nav-links */
+    align-items: center; /* Aligns items vertically */
+    color: #fff;
+}
 
 @media (max-width: 768px) {
     .nav-links {
