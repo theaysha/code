@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items:center;
     min-height: 100vh;
-    background: #0c192c;
+    background: #10c89dda;
 }
 
 .circle{
@@ -66,15 +66,16 @@ body{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    border: 0.4rem double #1e84a8;
+    border: 0.4rem double #e6e6e6;
     margin: 5rem 45rem; /* Center the container */
     position: absolute;
 }
 
 .container h1{
+    color: #fff;
     text-align: center;
     padding: 1.5rem 2rem;
-    background: linear-gradient(rgb(177, 30, 30), purple);
+    background: linear-gradient(rgb(22, 5, 96), rgb(23, 174, 188));
 }
 
 .container form{
@@ -91,17 +92,19 @@ body{
     width: 100%;
     padding: 0.5rem 0;
     border-radius: 2rem;
-    background: linear-gradient(rgb(203, 203, 203), rgb(0, 128, 122));
+    background: linear-gradient(90deg, rgb(15, 68, 5), rgb(29, 190, 56));
     transition: 0.6s;
 }
 
 .container form input{
+   
     width: 100%;
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     border: 1px solid #c0c0c0;
-    background: linear-gradient(rgb(203, 203, 203), rgb(0, 128, 122));
+    background: linear-gradient(90deg, rgb(15, 68, 5), rgb(29, 190, 56));
+    
 }
 
 input::placeholder{

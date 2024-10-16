@@ -40,7 +40,7 @@ if(isset($_POST['sub'])){
 </head>
 <body>
   <div class="circle">
-    <div class="bubbles">
+    <!-- <div class="bubbles">
       <span style="--i:11"></span>
       <span style="--i:12"></span>
       <span style="--i:25"></span>
@@ -121,7 +121,7 @@ if(isset($_POST['sub'])){
       <span style="--i:24"></span>
       <span style="--i:10"></span>
       <span style="--i:29"></span>
-    </div>
+    </div> -->
 
     <div class="container" >
       <h1>Login Forms</h1>
