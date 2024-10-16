@@ -17,6 +17,11 @@
                 <li><a href="our_services.php">Our Services</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         </div>
     </nav>
     
@@ -128,5 +133,10 @@
     });
 
     </script>
+     <script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
 </body>
 </html>

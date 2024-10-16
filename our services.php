@@ -22,7 +22,11 @@
             <li><a href="#" class="active">Our Services</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
-        <div class="menu-toggle">&#9776;</div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </nav>
 
     <!-- Hero Section -->
@@ -112,6 +116,11 @@
             navLinks.classList.toggle('active');
         });
     </script>
+     <script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
 </body>
 
 </html>

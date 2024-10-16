@@ -19,7 +19,11 @@
             <li><a href="login.php" >Login</a></li>
 
         </ul>
-        <div class="menu-toggle">&#9776;</div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </nav>
     <div class="container">
         <h2>SIP Calculator</h2>
@@ -54,6 +58,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="sip.js"></script>
+    <script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
 
     
 </body>

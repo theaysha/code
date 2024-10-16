@@ -17,10 +17,15 @@
                 <li><a href="about.php" class="active">About Us</a></li>
                 <li><a href="our services.php"> Our Services</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="retirem.php">retirement Planning</a></li>
+                <li><a href="retirement2.php">retirement Planning</a></li>
 
 
             </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         </div>
     </nav>
    
@@ -66,5 +71,10 @@ Reduces Market Timing Risk: SIPs remove the need to time the market, as your inv
             <a href="term.php">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
         </div>
     </footer>
+    <script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
 </body>
 </html>

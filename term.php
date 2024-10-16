@@ -20,7 +20,11 @@
         
 
         </ul>
-        <div class="menu-toggle">&#9776;</div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </nav>
     <section>
         <p><h1>Mutual funds are investment vehicles that pool money from many investors to invest in a variety of assets, such as stocks, bonds, or other securities. <br> When investing in mutual funds, it's essential to understand the terms and conditions associated with them.
@@ -119,7 +123,11 @@ Each mutual fund has a different investment objective, such as growth, income, o
 
         
     </script>
-
+ <script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
 
 
 

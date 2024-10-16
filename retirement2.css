@@ -1,21 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    /* padding: 20px; */
-}
-.navbar {
-    background: #0b2f69;
-    
+    background-color: #020937;
     color: #fff;
-    padding: 10px 0;
-    
-}
-h2{
-    padding: 0 20px;
+    margin: 0;
 }
 
+/* Navbar styles */
+.navbar {
+    background: #0b2f69;
+    color: #fff;
+    padding: 10px 0;
+    animation: slideDown 1s ease-out; /* Navbar sliding down */
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    padding: 0 20px;
+}
 
 .navbar .container {
     display: flex;
@@ -30,21 +39,46 @@ h2{
 .nav-links li {
     display: inline;
     margin-left: 20px;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav-links li:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+.nav-links li:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.nav-links li:nth-child(3) {
+    animation-delay: 0.9s;
 }
 
 .nav-links a {
     color: #fff;
     text-decoration: none;
-    padding: 8px 20px; 
-    transition: background 0.3s; 
+    padding: 8px 20px;
+    transition: background 0.3s, transform 0.3s;
     font-size: larger;
-    
 }
 
 .nav-links a:hover {
-    color:aqua; 
-
+    color: aqua;
+    transform: scale(1.1); /* Grow effect on hover */
 }
+
 .nav-links a.active {
     background-color: #ff4500;
     color: #fff;
@@ -52,27 +86,231 @@ h2{
 }
 
 img {
-    width: 70%; 
-   
-    max-height: 80vh; 
+    width: 70%;
+    max-height: 80vh;
     margin-left: 20rem;
+    opacity: 0;
+    animation: fadeInZoom 1s forwards;
+    animation-delay: 1.5s; /* Delayed image load */
 }
-main{
+
+@keyframes fadeInZoom {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+main {
     padding: 0 330px;
     font-size: larger;
-    
-    
+    animation: contentFadeIn 1s ease-in-out; /* Content fading in */
 }
-h1{
+
+@keyframes contentFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
     padding: 20px 24rem;
     font-size: xx-large;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 }
-main p{
+
+main p {
     font-size: x-large;
 }
-main span{
+
+main span {
     color: green;
 }
- main h2{
-    color:green ;
+
+main h2 {
+    color: green;
+}
+
+button {
+    margin: 2rem auto; /* Center button */
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    transition: box-shadow 0.3s ease, transform 0.3s;
+    color: #f4f4f4;
+    margin-left: 50rem;
+    background-color: #0b2f69;
+    margin-top: -20rem;
+    opacity: 0;
+    animation: fadeInSlideUp 1.5s forwards; /* Button sliding up with fade */
+    animation-delay: 2s;
+}
+
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+button:hover {
+    box-shadow: 0 0 15px 5px palegoldenrod; /* Glow effect */
+    transform: scale(1.05); /* Button grows slightly */
+}
+
+/* Responsive for phones */
+@media (max-width: 600px) {
+    h1 {
+        padding: 10px;
+        font-size: large;
+    }
+
+    main {
+        padding: 10px;
+        font-size: medium;
+    }
+
+    img {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    button {
+        width: 8rem;
+        height: 2.5rem;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .navbar .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Responsive for tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        padding: 0 10rem;
+        font-size: x-large;
+    }
+
+    main {
+        padding: 0 50px;
+        font-size: large;
+    }
+
+    img {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    button {
+        width: 9rem;
+        height: 3rem;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .navbar .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-links li {
+        display: inline;
+        margin-left: 15px;
+    }
+}
+
+/* Responsive for laptops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    h1 {
+        padding: 0 20rem;
+        font-size: x-large;
+    }
+
+    main {
+        padding: 0 200px;
+        font-size: larger;
+    }
+
+    img {
+        width: 70%;
+        margin-left: 10rem;
+    }
+
+    button {
+        width: 10rem;
+        height: 3rem;
+        margin-left: 20rem;
+        margin-top: 2rem;
+    }
+}
+/* Menu icon (hamburger) styling */
+.menu-icon {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* Hide nav links on phone screens */
+@media (max-width: 600px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0b2f69;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 10;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: flex; /* Show the hamburger icon on small screens */
+    }
 }

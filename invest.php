@@ -25,6 +25,11 @@
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         </nav>
     </header>
 
@@ -100,7 +105,11 @@
         <p>&copy; 2024 Shri Hanumat Capital Services Private Limited. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
 </body>
 
 </html>

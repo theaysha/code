@@ -185,3 +185,47 @@ ul.socials li a:hover {
 }
 
 
+.menu-icon {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* Hide nav links on phone screens */
+@media (max-width: 600px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0b2f69;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 10;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: flex; /* Show the hamburger icon on small screens */
+    }
+}
