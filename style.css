@@ -23,10 +23,8 @@ a:hover {
 }
 
 /* Navbar */
-/* Basic styling for the navbar */
 .navbar {
     background: #0b2f69;
-    
     color: white;
     padding: 10px;
 }
@@ -35,25 +33,23 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
+    margin: 0; /* Adjusted to remove space */
 }
 
-/* Align h2 inside the navbar */
 .navbar-title {
     font-size: 24px;
     color: white;
     margin: 0;
-    flex: 1; /* Takes up remaining space */
+    flex: 1;
 }
 
-/* Style for the navigation links */
 .nav-links {
     list-style: none;
     display: flex;
-    
     margin: 0;
     padding: 0;
 }
+
 .nav-links li {
     display: inline;
     margin-left: 20px;
@@ -62,29 +58,15 @@ a:hover {
 .nav-links a {
     color: #fff;
     text-decoration: none;
-    padding: 8px 15px; 
-    transition: background 0.3s; 
+    padding: 8px 15px;
+    transition: background 0.3s;
     font-size: larger;
-    
 }
 
 .nav-links li a.active {
-    background-color:orangered;
+    background-color: orangered;
     border-radius: 5px;
 }
-
-/* Mobile menu toggle */
-.menu-toggle {
-    display: none;
-}
-
-/* Terms link styling */
-.go a {
-    color: white;
-    text-decoration: none;
-    margin-left: 20px;
-}
-
 
 .nav-links a:hover {
     color: aqua;
@@ -95,7 +77,6 @@ a:hover {
     color: #fff;
 }
 
-/* Mobile Menu (Hamburger) */
 .menu-toggle {
     display: none;
     font-size: 28px;
@@ -110,9 +91,7 @@ a:hover {
         flex-direction: column;
         display: none;
         width: 100%;
-        /* background-color: #333; */
-        /* position: absolute; */
-        top: 60px; /* Adjust to fit below the navbar */
+        top: 60px;
         left: 0;
     }
 
@@ -128,19 +107,31 @@ a:hover {
     .menu-toggle {
         display: block;
     }
-
-    
 }
 
-/* Show animation on menu toggle */
+/* Button Styles */
+.dynamic-button {
+    width: 15rem;
+    height: 4rem;
+    background-color: #040243;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
-
+.dynamic-button:hover {
+    background-color: #0a3d5c;
+    transform: scale(1.05);
+}
 
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url('money.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('pic.jpg') center center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +180,6 @@ a:hover {
     font-size: 18px;
     margin-bottom: 40px;
     color: #000;
-    
 }
 
 .about .cta-btn {
@@ -201,70 +191,77 @@ a:hover {
     color: aqua;
 }
 
-
-.services {
-    padding: 60px 30px;
-    background-color: #f1f1f1;
-}
-.services img {
-    /* width: 40rem;  */
-   width: 100%;
-   height: 50rem;
-    /* border-radius: 8px;  */
+.boxes {
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
+.box1 img {
+    width: 30rem; 
+    height: 30rem; 
+    padding: 1rem 2rem;
+}
 
-
-
-.services h2 {
-    font-size: 36px;
+.boxes h2 {
+    font-size: 26px;
     margin-bottom: 20px;
-    width: 100%; 
+    width: 100%;
     text-align: center;
 }
 
-.ab{
-    /* width: 60rem; */
-    margin-top: 3rem;
-    /* padding: 0 20rem; */
+main{
+    padding: 0 330px;
+    font-size: larger;
+    animation: contentFadeIn 1s ease-in-out;
 }
-
-
-/* .service-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-} */
-
-/* .service-card {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-} */
-
-/* .service-card h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
+main h1{
+    color: #0a3d5c;
+    padding: 1rem 0;
+    
+}
+main p{
+    font-size: larger;
     color: #333;
 }
+.ab img{
+    padding: 0 330px;
+    width: 50rem;
+    margin: 3rem 0;
+    height: 40rem;
+    
 
-.service-card p {
-    color: #555;
 }
 
-.service-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-} */
+.ab {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
+    gap: 1rem; 
+}
+
+
+
+.ab h2 {
+    color: #333;
+    font-size: xx-large;
+    position: relative;
+    top: -100px; 
+   margin-right: 16rem;
+    
+}
+.ab button{
+    width: 10rem;
+    height: 4rem;
+    
+}
+
+
+
 
 /* Footer */
 footer {
-    /* background-color: #333; */
-    /* background-color: #032243; */
-  background: linear-gradient(90deg, #011d2b, #0b32b1, #011d2b);
-
+    background: linear-gradient(90deg, #011d2b, #0b32b1, #011d2b);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -308,6 +305,7 @@ ul.socials li a {
 ul.socials li a:hover {
     color: #007bff;
 }
-.go a{
+
+.go a {
     color: #fff;
 }

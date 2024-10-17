@@ -43,7 +43,11 @@
         <div class="hero-content">
             <h1>Shaping Your Financial Future</h1>
             <p>Providing Expert Financial Solutions for Growth and Success</p>
-            <a href="#about" class="cta-btn">Learn More</a>
+            <p>We propel your financial journey with tailored solutions  <br>in Stocks, PMS, AIF, Mutual Funds, Insurance & <br> Startups Investing offering expert guidance for <br> comprehensive wealth management and success in <br> your financial endeavors.</p>
+            <!-- <a href="#about" class="cta-btn">Learn More</a> -->
+            <div>
+            <a href=""><button class="dynamic-button">Let's Get Started</button></a>
+            </div>
         </div>
     </section>
 
@@ -57,7 +61,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- <section id="services" class="services">
         <div>
         <h2>Our Services</h2>
         <a href="our services.php"><img src="card.webp" alt="" srcset=""></a>
@@ -67,28 +71,37 @@
             <h2>Start Your Investment With SIP</h2>
         <img src="sip.webp" alt="" srcset="">
         </div>
+        <div class="ab">
+            <h2>Start Your Retirement Planning</h2>
+        <img src="images (2).jpeg" alt="" srcset="">
+        </div>
         
-        <!-- <div class="service-grid">
-            <div class="service-card">
-                
-                <h3>Investment Advisory</h3>
-                <p>Personalized investment advice to help you grow your wealth strategically and sustainably.</p>
-            </div>
-            <div class="service-card">
-                <h3>Portfolio Management</h3>
-                <p>Comprehensive management of your portfolio to ensure an optimal balance of risk and return.</p>
-            </div>
-            <div class="service-card">
-                <h3>Tax Planning</h3>
-                <p>Tax strategies that optimize savings and ensure long-term financial success.</p>
-            </div>
-            <div class="service-card">
-                <h3>Risk Management</h3>
-                <p>Identify and mitigate risks to protect your assets and secure your financial future.</p>
-            </div>
-        </div> -->
-    </section>
-
+    </section> -->
+    <div class="boxes">
+        <div class="box1">
+        <h2>Our Services</h2>
+        <a href="our services.php"><img src="card.webp" alt="" srcset=""></a>
+        </div>
+        <div class="box1">
+            <h2>Start Your Investment With SIP</h2>
+        <img src="sip.webp" alt="" srcset="">
+        </div>
+        <div class="box1">
+            <h2>Start Your Retirement Planning</h2>
+        <img src="images (2).jpeg" alt="" srcset="">
+        </div>
+    </div>
+    <main>
+    <h1>Why Choose Shri Hanumat Capital Services Private Limited </h1>
+    <p> Shri Hanumat Capital Services Private Limited is an Investment Services Group. Shri Hanumat Capital Services Private Limited's team has its core competence in Equity  Research Analysis & Portfolio Management. The team is engaged in planning and handling customised, unconflicted investments for Retail and clients. The team provides Professional Investment services for investments in Indian equities & debt instruments to Individuals, corporates and family offices.</p>
+    </main>
+<div class="ab">
+    <img src="anime.jpg" alt="">
+    <h2>A Team for your constant Wealth Growth</h2>
+    <div class>
+    <a href=""><button>Discover <i class='bx bx-right-arrow-alt'></i></button></a>
+    </div>
+</div>
     <!-- Footer -->
     <footer>
         <div class="footer-content">
