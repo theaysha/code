@@ -19,11 +19,7 @@
                 <li><a href="our services.php"> Our Services</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>
-            <div class="menu-icon" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
+            <span class="menu-toggle">&#9776;</span>
         </div>
     </nav>
 
@@ -31,11 +27,11 @@
     <section class="about">
         <div class="container">
             <h1>About Us</h1>
-            <p>Welcome to Shri Hanumat Capital Services Private Limited. With <B>18</B> years of experience in the financial sector, we provide a wide range of financial services tailored to meet the unique needs of our clients.</p>
+            <p>Welcome to Shri Hanumat Capital Services Private Limited. With <span>18 years of experience in the financial sector </span>, we provide a wide range of financial services tailored to meet the unique needs of our clients.</p>
             <img src="pic.jpeg" alt="About Us" class="about-img">
 
             <h2>Our History</h2>
-            <p>Founded in [2024], Shri Hanumat Capital Services has grown from a small firm into a trusted name in financial services. Our dedication to excellence and client satisfaction has been the cornerstone of our success.</p>
+            <p><span>Founded in [2024], Shri Hanumat Capital Services Private Limited</span> has grown from a small firm into a trusted name in financial services. Our dedication to excellence and client satisfaction has been the cornerstone of our success.</p>
 
             <h2>Our Mission</h2>
             <p>To empower individuals and businesses through innovative financial solutions, ensuring their success and stability.</p>
@@ -45,10 +41,10 @@
 
             <h2>Our Values</h2>
             <ul>
-                <li><strong>Integrity:</strong> We uphold the highest standards of honesty and ethics.</li>
-                <li><strong>Excellence:</strong> We strive for excellence in every aspect of our services.</li>
-                <li><strong>Innovation:</strong> We embrace innovation to provide the best solutions to our clients.</li>
-                <li><strong>Client Focus:</strong> Our clients are at the heart of everything we do.</li>
+                <li><strong><span>Integrity:</span></strong> We uphold the highest standards of honesty and ethics.</li>
+                <li><strong><span>Excellence:</span></strong> We strive for excellence in every aspect of our services.</li>
+                <li><strong><span>Innovation:</span></strong> We embrace innovation to provide the best solutions to our clients.</li>
+                <li><strong><span>Client Focus:</span></strong> Our clients are at the heart of everything we do.</li>
             </ul>
 
             <h2>Our Services</h2>
@@ -96,14 +92,18 @@
 
             </ul>
             <p>Shri Hanumat Capital Services Private Limited © <span id="year"></span>. All Rights Reserved.</p>
-            <a href="term.php">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
+            <a href="term.php" class="or">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
         </div>
     </footer>
     <script>
-    function toggleMenu() {
+        // Menu toggle for mobile view
+        const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
-        navLinks.classList.toggle('active');
-    }
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>

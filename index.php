@@ -65,7 +65,7 @@
         </div>
         <div class="ab">
             <h2>Start Your Investment With SIP</h2>
-       <a href="plain.php"> <img src="sip.webp" alt="" srcset=""></a>
+        <img src="sip.webp" alt="" srcset="">
         </div>
         
         <!-- <div class="service-grid">

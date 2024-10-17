@@ -74,9 +74,11 @@ Reduces Market Timing Risk: SIPs remove the need to time the market, as your inv
         </div>
     </footer>
     <script>
-    function toggleMenu() {
-        const navLinks = document.querySelector('.nav-links');
-        navLinks.classList.toggle('active');
-    }
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
+</script>
+
 </body>
 </html>

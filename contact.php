@@ -41,7 +41,7 @@
 <section class="contact-info">
   <div>
     <h3>Office Address</h3>
-    <p>Ashoka enclave part 2 sector-32 second floor near samarpan hospital., Faridabad, India, Haryana</p>
+    <p>Ashoka enclave part-2 sector-37 second floor near samarpan hospital., Faridabad, India, Haryana</p>
   </div>
   <div>
     <h3>Email Address</h3>

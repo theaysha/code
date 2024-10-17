@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(90deg, #840ea8, #b16f0b, #1dafd0);
+  /* background: linear-gradient(90deg, #840ea8, #b16f0b, #1dafd0); */
 
   
 }
@@ -46,6 +46,7 @@ nav h1{
 
 .hero h1 {
   font-size: 3em;
+  color: #000;
 }
 
 

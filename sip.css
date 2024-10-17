@@ -5,23 +5,16 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    padding: 10px 0;
-    
+    margin: 0;
 }
 
+/* Navbar Styling */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    /* background-color: #333; */
-    /* background: #0b2f69; */
-  /* background: linear-gradient(90deg, #011d2b, #0088cc, #011d2b); */
-  background: linear-gradient(90deg, #011d2b, #0b32b1, #011d2b);
-  
-
-
-
+    background: linear-gradient(90deg, #011d2b, #0b32b1, #011d2b);
     position: fixed;
     width: 100%;
     top: 0;
@@ -32,8 +25,7 @@ body {
     font-size: 24px;
     color: #fff;
     font-weight: bold;
-text-decoration: none;
-
+    text-decoration: none;
 }
 
 .nav-links {
@@ -50,14 +42,14 @@ text-decoration: none;
     font-size: larger;
     padding: 8px 15px;
     border-radius: 4px;
-    margin-right: 3rem;
     font-weight: bolder;
-text-decoration: none;
-
+    text-decoration: none;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: aqua;
 }
+
 .nav-links a.active {
     background-color: #ff4500;
     color: #fff;
@@ -76,7 +68,7 @@ nav ul li a:hover{
         flex-direction: column;
         display: none;
         width: 100%;
-        background-color: #333;
+        /* background-color: #333; */
     }
 
     .nav-links.active {
@@ -93,6 +85,7 @@ nav ul li a:hover{
     }
 }
 
+/* Main Container Styling */
 .container {
     width: 40rem;
     height: 30%;
@@ -110,8 +103,6 @@ nav ul li a:hover{
                 0 0 40px rgba(11, 50, 177, 0.6),
                 0 0 60px rgba(11, 50, 177, 0.5);
 }
-
-
 
 h2 {
     text-align: center;
@@ -159,4 +150,23 @@ button:hover {
 
 canvas {
     margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
 }
