@@ -91,7 +91,7 @@
                 <li><a href="https://x.com/services37736?t=1p9mH_NBXTFVBquX6vAdpQ&s=09"><i class='bx bxl-twitter' ></i></a></li>
                 <li><a href="https://www.linkedin.com/in/shri-hanumat-capital-services-pvt-ltd-a50107333"><i class='bx bxl-linkedin-square'></i></a></li>
                 <li><a href="https://www.instagram.com/shrihanumat_pvtltd/profilecard/?igsh=Mmo5eGFtcDFheHhq"><i class="bx bxl-instagram"></i></a></li>
-                <li><a href="https://youtube.com/@shrihanumatcapitalservices?si=FeBMokmFT3OO3bmb"><i class='bx bxl-youtube'></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC4spNBgKoY4Tvs7n1WbiE2Q"><i class='bx bxl-youtube'></i></a></li>
 
 
             </ul>

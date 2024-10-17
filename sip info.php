@@ -14,9 +14,11 @@
             <h2>Shri Hanumat Capital Services Private Limited</h2>
             <ul class="nav-links">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="about.php" class="active">About Us</a></li>
+                <li><a href="about.php" >About Us</a></li>
                 <li><a href="our services.php"> Our Services</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="contact.php" class="active">SIP</a></li>
+
                 <li><a href="retirement2.php">retirement Planning</a></li>
 
 
@@ -63,7 +65,7 @@ Reduces Market Timing Risk: SIPs remove the need to time the market, as your inv
                 <li><a href="https://x.com/services37736?t=1p9mH_NBXTFVBquX6vAdpQ&s=09"><i class='bx bxl-twitter' ></i></a></li>
                 <li><a href="https://linkedin.com/in/shri-hanumat-capital-services-pvt-ltd-a50107333"></a><i class='bx bxl-linkedin'></i></a></li>
                 <li><a href="https://www.instagram.com/shrihanumat_pvtltd/profilecard/?igsh=Mmo5eGFtcDFheHhq"><i class="bx bxl-instagram"></i></a></li>
-                <li><a href="https://youtube.com/@shrihanumatcapitalservices?si=FeBMokmFT3OO3bmb"><i class='bx bxl-youtube'></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC4spNBgKoY4Tvs7n1WbiE2Q"><i class='bx bxl-youtube'></i></a></li>
 
 
             </ul>

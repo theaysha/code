@@ -23,75 +23,97 @@ a:hover {
 }
 
 /* Navbar */
+/* Basic styling for the navbar */
 .navbar {
+    background: #0b2f69;
+    
+    color: white;
+    padding: 10px;
+}
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    /* background-color: #333; */
-    /* background: #0b2f69; */
-  /* background: linear-gradient(90deg, #011d2b, #0088cc, #011d2b); */
-  background: linear-gradient(90deg, #011d2b, #0b32b1, #011d2b);
-
-
-
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    margin-top: 2rem;
 }
 
-.navbar .logo a {
+/* Align h2 inside the navbar */
+.navbar-title {
     font-size: 24px;
-    color: #fff;
-    font-weight: bold;
+    color: white;
+    margin: 0;
+    flex: 1; /* Takes up remaining space */
 }
 
+/* Style for the navigation links */
 .nav-links {
-    list-style-type: none;
+    list-style: none;
     display: flex;
+    
+    margin: 0;
+    padding: 0;
 }
-
 .nav-links li {
+    display: inline;
     margin-left: 20px;
 }
 
 .nav-links a {
     color: #fff;
+    text-decoration: none;
+    padding: 8px 15px; 
+    transition: background 0.3s; 
     font-size: larger;
-    padding: 8px 15px;
-    border-radius: 4px;
-    margin-right: 3rem;
-    font-weight: bolder;
+    
 }
-nav ul li a:hover{
+
+.nav-links li a.active {
+    background-color:orangered;
+    border-radius: 5px;
+}
+
+/* Mobile menu toggle */
+.menu-toggle {
+    display: none;
+}
+
+/* Terms link styling */
+.go a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.nav-links a:hover {
     color: aqua;
 }
+
 .nav-links a.active {
     background-color: #ff4500;
     color: #fff;
 }
 
-/* Mobile Menu */
+/* Mobile Menu (Hamburger) */
 .menu-toggle {
     display: none;
     font-size: 28px;
     color: #fff;
     cursor: pointer;
-}
-.navbar .container {
-    display: flex;
-    justify-content: space-between; /* Ensures the space between h2 and nav-links */
-    align-items: center; /* Aligns items vertically */
-    color: #fff;
+    transition: transform 0.3s ease-in-out;
 }
 
+/* Responsive Navbar */
 @media (max-width: 768px) {
     .nav-links {
         flex-direction: column;
         display: none;
         width: 100%;
-        background-color: #333;
+        /* background-color: #333; */
+        /* position: absolute; */
+        top: 60px; /* Adjust to fit below the navbar */
+        left: 0;
     }
 
     .nav-links.active {
@@ -99,14 +121,20 @@ nav ul li a:hover{
     }
 
     .nav-links li {
-        margin: 0;
+        margin: 10px 0;
         text-align: center;
     }
 
     .menu-toggle {
         display: block;
     }
+
+    
 }
+
+/* Show animation on menu toggle */
+
+
 
 /* Hero Section */
 .hero {
