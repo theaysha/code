@@ -66,7 +66,7 @@
     </div>
     <div class="box1">
         <h2>Start Your Retirement Planning</h2>
-        <img class="fade" src="images (2).jpeg" alt="" srcset="">
+        <img class="fade" src="yo.webp" alt="" srcset="">
     </div>
 </div>
 
@@ -74,11 +74,19 @@
     <h1>Why Choose Shri Hanumat Capital Services Private Limited </h1>
     <p> Shri Hanumat Capital Services Private Limited is an Investment Services Group. Shri Hanumat Capital Services Private Limited's team has its core competence in Equity  Research Analysis & Portfolio Management. The team is engaged in planning and handling customised, unconflicted investments for Retail and clients. The team provides Professional Investment services for investments in Indian equities & debt instruments to Individuals, corporates and family offices.</p>
     </main>
-<div class="ab">
+<!-- <div class="ab">
     <img src="anime.jpg" alt="">
     <h2>A Team for <br> your constant <br> Wealth Growth</h2>
     
+</div> -->
+<div class="image-container">
+    <img src="anime.jpg" class="active" alt="Image 1">
+    <img src="muutual.webp" alt="Image 2">
+    <img src="old.webp" alt="Image 3">
+    <h2>A Team for <br> your constant <br> Wealth Growth</h2>
+    
 </div>
+
 <div class="ab1">
     <a href="about.php"><button>Discover <i class='bx bx-right-arrow-alt'></i></button></a>
     </div>
@@ -194,9 +202,31 @@
 
     menuToggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
-        menuToggle.classList.toggle('active'); // For rotating the menu icon
+        menuToggle.classList.toggle('active'); 
     });
+
+    
+    let currentIndex = 0; // Track the current image index
+    const images = document.querySelectorAll('.image-container img'); // Select all images
+
+    function showNextImage() {
+        // Remove 'active' class from current image
+        images[currentIndex].classList.remove('active');
+
+        // Update index to the next image
+        currentIndex = (currentIndex + 1) % images.length;
+
+        // Add 'active' class to the next image
+        images[currentIndex].classList.add('active');
+    }
+
+    // Change image every 3 seconds (3000 milliseconds)
+    setInterval(showNextImage, 3000);
+
+
 </script>
+
+
 
 </body>
 

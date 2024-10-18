@@ -1,110 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Shri Hanumat Capital Services</title>
-    <link rel="stylesheet" href="style2.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container">
-            <h2>Shri Hanumat Capital Services Private Limited</h2>
-            <ul class="nav-links">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php" class="active">About Us</a></li>
-                <li><a href="our services.php"> Our Services</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
-            </ul>
-            <span class="menu-toggle">&#9776;</span>
-        </div>
-    </nav>
-
-    <!-- About Us Section -->
-    <section class="about">
-        <div class="container">
-            <h1>About Us</h1>
-            <p>Welcome to Shri Hanumat Capital Services Private Limited. With <span>18 years of experience in the financial sector </span>, we provide a wide range of financial services tailored to meet the unique needs of our clients.</p>
-            <img src="pic.jpeg" alt="About Us" class="about-img">
-
-            <h2>Our History</h2>
-            <p><span>Founded in [2024], Shri Hanumat Capital Services Private Limited</span> has grown from a small firm into a trusted name in financial services. Our dedication to excellence and client satisfaction has been the cornerstone of our success.</p>
-
-            <h2>Our Mission</h2>
-            <p>To empower individuals and businesses through innovative financial solutions, ensuring their success and stability.</p>
-
-            <h2>Our Vision</h2>
-            <p>To be a leader in the financial services industry, recognized for our commitment to quality and integrity.</p>
-
-            <h2>Our Values</h2>
-            <ul>
-                <li><strong><span>Integrity:</span></strong> We uphold the highest standards of honesty and ethics.</li>
-                <li><strong><span>Excellence:</span></strong> We strive for excellence in every aspect of our services.</li>
-                <li><strong><span>Innovation:</span></strong> We embrace innovation to provide the best solutions to our clients.</li>
-                <li><strong><span>Client Focus:</span></strong> Our clients are at the heart of everything we do.</li>
-            </ul>
-
-            <h2>Our Services</h2>
-            <p>We offer a comprehensive range of financial services, including:</p>
-            <ul>
-                <li>Investment Advisory</li>
-                <li>Wealth Management</li>
-                <li>Financial Planning</li>
-                <li>Tax Advisory</li>
-                <li>Business Consulting</li>
-            </ul>
-
-            <h2>Meet Our Team</h2>
-            <div class="team">
-                <div class="team-member">
-                    <img src="pic.jpeg" alt="Team Member 1" class="team-img">
-                    <h3>Mr. Rajkumar </h3>
-                    <p>CEO & Founder</p>
-                </div>
-                <div class="team-member">
-                    <img src="pic.jpeg" alt="Team Member 2" class="team-img">
-                    <h3>Mrs.Guriya Raj Kashyap</h3>
-                    <p>Co-Founder</p>
-                </div>
-                <div class="team-member">
-                    <img src="pic.jpeg" alt="Team Member 3" class="team-img">
-                    <h3>Mrs.Monika Singh</h3>
-                    <p>Business Head</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <p>Contact: info@shrihanumatcapital.com | +91 9911171525</p>
-            <ul class="socials">
-            <li><a href="https://www.facebook.com/share/JaFez9VAptHvSKux/"><i class='bx bxl-facebook-circle'></i></a></li>
-                <li><a href="https://x.com/services37736?t=1p9mH_NBXTFVBquX6vAdpQ&s=09"><i class='bx bxl-twitter' ></i></a></li>
-                <li><a href="https://www.linkedin.com/in/shri-hanumat-capital-services-pvt-ltd-a50107333"><i class='bx bxl-linkedin-square'></i></a></li>
-                <li><a href="https://www.instagram.com/shrihanumat_pvtltd/profilecard/?igsh=Mmo5eGFtcDFheHhq"><i class="bx bxl-instagram"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UC4spNBgKoY4Tvs7n1WbiE2Q"><i class='bx bxl-youtube'></i></a></li>
-
-
-            </ul>
-            <p>Shri Hanumat Capital Services Private Limited © <span id="year"></span>. All Rights Reserved.</p>
-            <a href="term.php" class="or">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
-        </div>
-    </footer>
-    <script>
-        // Menu toggle for mobile view
-        const menuToggle = document.querySelector('.menu-toggle');
-        const navLinks = document.querySelector('.nav-links');
-
-        menuToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
-    </script>
-</body>
-
+<html>
+ <head>
+  <title>
+   Shri Hanumat Capital Services Private Limited
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style2.css">
+  
+ </head>
+ <body>
+  
+  <div class="nav">
+    <h2>Shri Hanumat Capital Services Private Limited</h2>
+   <a href="#">
+    Home
+   </a>
+   <a href="#">
+    About Us
+   </a>
+   <a href="#">
+    Our Services
+   </a>
+   <a href="#">
+    Careers
+   </a>
+   <a href="#">
+    Blogs
+   </a>
+   <a href="#">
+    Contact Us
+   </a>
+   
+  </div>
+  <div class="hero">
+   <h1>
+    Discover The Shri Hanumat Capital Services Private Limited Difference
+   </h1>
+   <p>
+    At Shri Hanumat Capital Services Private Limited, we redefine your Wealth Creation journey. Discover the Shri Hanumat Capital Services Private Limited Difference — a commitment to excellence, integrity, and personalized strategies for your ultimate financial growth.
+   </p>
+   <div class="stats">
+    <div>
+     <h2>
+      4,000
+     </h2>
+     <p>
+      Happy Investors
+     </p>
+    </div>
+    <div>
+     <h2>
+      18
+     </h2>
+     <p>
+      Years Experience
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="team-section">
+   <h2>
+    About our Team
+   </h2>
+   <div class="team">
+    <div class="member">
+     <img alt="CA Paras Behl" height="150" src="retirement.jpeg" width="150"/>
+     <h3>
+      Mr.Rajkumar
+     </h3>
+     <p>
+      Founder &amp; Director
+     </p>
+    </div>
+    <div class="member">
+     <img alt="Abhishek Chawla" height="150" src="retirement.jpeg" width="150"/>
+     <h3>
+      Mrs.Guriya khasyup
+     </h3>
+     <p>
+      Co-Founder 
+     </p>
+    </div>
+    <div class="member">
+     <img alt="CA Sukhman Kaur" height="150" src="retirement.jpeg" width="150"/>
+     <h3>
+      Mrs.Monika singh
+     </h3>
+     <p>
+      Business Head
+     </p>
+    </div>
+    <div class="highlight">
+     <h3>
+      Strongly Supported By Team of 37+ Professionals including CAs, CFAs &amp; MBAs
+     </h3>
+    </div>
+   </div>
+  </div>
+  <div class="about-section">
+   <div class="image">
+    <img alt="Wealth Growth" height="300" src="https://storage.googleapis.com/a1aa/image/NmkqR1LYCt5lA5q7Vy6oeK3Rxfla8qBGPpAVSJgFzD0e19PnA.jpg" width="300"/>
+   </div>
+   <div class="about">
+    <h2>
+     About Shri Hanumat Capital Services Private Limited
+    </h2>
+    <p>
+     Shri Hanumat Capital Services Private Limited is an Investment Services Group being led by head office in Ludhiana, Punjab. Shri Hanumat Capital Services Private Limited team has its core competence in Equity Research Analysis &amp; Portfolio Management.
+    </p>
+    <p>
+     We offer a diverse range of investment products and services, including:
+    </p>
+    <ul>
+     <li>
+      Stock Investment: Individual companies to gain direct exposure to their growth potential.
+     </li>
+     <li>
+      Portfolio Management Services (PMS): Help professional portfolio management and ideas for your equity and investment needs.
+     </li>
+     <li>
+      Alternative Investment Funds (AIFs): Access a wide range of investment opportunities beyond traditional asset classes.
+     </li>
+     <li>
+      Mutual Funds: Diversify your investments across a basket of securities managed by professional fund managers.
+     </li>
+     <li>
+      Strategic Investments: Opportunities in Pre-IPO, Warrants &amp; Value Creator Strategies.
+     </li>
+    </ul>
+    <p>
+     Insurance: Life &amp; Health
+    </p>
+   </div>
+  </div>
+ </body>
 </html>
-

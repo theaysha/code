@@ -1,12 +1,31 @@
 /* General Styles */
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0c0337;
+    background: linear-gradient(270deg, #0c0337, #690b69, #410833, #0c0337);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
     scroll-behavior: smooth;
     color: #fff;
 }
+
+/* Keyframes for Gradient Animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Remaining styles (Navbar, Hero Section, etc.) remain unchanged... */
+
 
 h1, h2, h3 {
     margin: 0;
@@ -213,14 +232,8 @@ a:hover {
     text-align: center;
 }
 
-.fade {
-    opacity: 1; /* Fully visible */
-    transition: opacity 0.5s ease; /* Smooth transition for opacity */
-}
 
-.box1:hover .fade {
-    opacity: 0.5; /* Fade out to 50% opacity on hover */
-}
+
 
 main {
     padding: 0 30px; /* Reduced padding for better responsiveness */
@@ -235,7 +248,7 @@ main h1 {
 
 main p {
     font-size: larger;
-    color: #878383;
+    color: #fff;
 }
 
 .ab img {
@@ -267,7 +280,7 @@ main p {
     border: none;
     border-radius: 30px;
     position: relative;
-    top: -350px;
+    top: -250px;
     left: 70%; 
     font-size: larger;
     transition: background-color 0.5s ease, opacity 0.5s ease;
@@ -334,7 +347,10 @@ ul.socials li a:hover {
     justify-content: space-between;
     padding: 4rem;
     align-items: center;
-    background-color: #020c48;
+    /* background-color: #020c48; */
+    background: linear-gradient(270deg, #0c0337, #690b69, #410833, #0c0337);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
 }
 
 .content {
@@ -520,5 +536,54 @@ input:focus, textarea:focus {
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+/* Image Container */
+.image-container {
+    position: relative;
+    width: 100%; 
+    height: 70vh; 
+    overflow: hidden;
+}
+
+.image-container h2{
+    position: absolute;
+    margin-left: 67rem;
+    top: 90px;
+
+}
+
+.image-container img {
+    position: absolute;
+    margin: 3rem 2rem;
+    width: 50rem;
+    height: 90vh;
+    object-fit: cover; 
+    margin-left: 8rem;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+}
+
+
+.image-container img.active {
+    opacity: 1; /* Fully visible */
+}
+
+/* Optional: Add a fade effect for active class */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
