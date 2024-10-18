@@ -12,6 +12,7 @@
 
 <body>
     <!-- Navbar -->
+    
      
     <nav class="navbar">
     <div class="container">
@@ -51,57 +52,115 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="about-content">
-            <h2>About Us</h2>
-            <p><b>At Shri Hanumat Capital Services Private Limited</b>, we specialize in delivering personalized financial strategies that help our clients achieve long-term financial security and success.</p>
-            <a href="about.php" class="cta-btn">More About Us</a>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <!-- <section id="services" class="services">
-        <div>
-        <h2>Our Services</h2>
-        <a href="our services.php"><img src="card.webp" alt="" srcset=""></a>
-       
-        </div>
-        <div class="ab">
-            <h2>Start Your Investment With SIP</h2>
-        <img src="sip.webp" alt="" srcset="">
-        </div>
-        <div class="ab">
-            <h2>Start Your Retirement Planning</h2>
-        <img src="images (2).jpeg" alt="" srcset="">
-        </div>
-        
-    </section> -->
+    
     <div class="boxes">
-        <div class="box1">
+    <div class="box1">
         <h2>Our Services</h2>
-        <a href="our services.php"><img src="card.webp" alt="" srcset=""></a>
-        </div>
-        <div class="box1">
-            <h2>Start Your Investment With SIP</h2>
-        <img src="sip.webp" alt="" srcset="">
-        </div>
-        <div class="box1">
-            <h2>Start Your Retirement Planning</h2>
-        <img src="images (2).jpeg" alt="" srcset="">
-        </div>
+        <a href="our services.php">
+            <img class="fade" src="card.webp" alt="" srcset="">
+        </a>
     </div>
+    <div class="box1">
+        <h2>Start Your Investment With SIP</h2>
+        <img class="fade" src="sip.webp" alt="" srcset="">
+    </div>
+    <div class="box1">
+        <h2>Start Your Retirement Planning</h2>
+        <img class="fade" src="images (2).jpeg" alt="" srcset="">
+    </div>
+</div>
+
     <main>
     <h1>Why Choose Shri Hanumat Capital Services Private Limited </h1>
     <p> Shri Hanumat Capital Services Private Limited is an Investment Services Group. Shri Hanumat Capital Services Private Limited's team has its core competence in Equity  Research Analysis & Portfolio Management. The team is engaged in planning and handling customised, unconflicted investments for Retail and clients. The team provides Professional Investment services for investments in Indian equities & debt instruments to Individuals, corporates and family offices.</p>
     </main>
 <div class="ab">
     <img src="anime.jpg" alt="">
-    <h2>A Team for your constant Wealth Growth</h2>
-    <div class>
-    <a href=""><button>Discover <i class='bx bx-right-arrow-alt'></i></button></a>
-    </div>
+    <h2>A Team for <br> your constant <br> Wealth Growth</h2>
+    
 </div>
+<div class="ab1">
+    <a href="about.php"><button>Discover <i class='bx bx-right-arrow-alt'></i></button></a>
+    </div>
+
+   <section class="services-overview">
+    <div class="content">
+      <h1>What We Provide</h1>
+      <p>
+        At Shri Hanumat Capital Services Private Limited , we offer a comprehensive suite of financial services, including Stocks, PMS/AIF, Mutual Funds, 
+        Startup Investments and Insurance. All your financial assets grow at one place.
+      </p>
+      <a href="#" class="cta-btn">Know More About Our Services <span class="arrow">→</span></a>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="connect.png" alt="Stocks PMS/AIF">
+        </div>
+        <h3>Stocks PMS/AIF</h3>
+        <span class="arrow">→</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="mutual.jpeg" alt="Mutual Funds">
+        </div>
+        <h3>Mutual Funds</h3>
+        <span class="arrow">→</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="investment.png" alt="Startup Investments">
+        </div>
+        <h3>Startup Investments</h3>
+        <span class="arrow">→</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <img src="insurance.jpeg" alt="Insurance">
+        </div>
+        <h3>Insurance</h3>
+        <span class="arrow">→</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="form-container">
+      <form action="#" method="POST">
+        <h2>Connect with us</h2>
+        
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="contact" placeholder="Contact/WhatsApp No." required>
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <textarea name="query" placeholder="Your query" rows="4" required></textarea>
+        
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+
+    <div class="consultation-info">
+      <h2>Book a Consultation<br>Leave us a message.</h2>
+      <p>
+       Shri Hanumat Capital Services Private Limited, team is here to help you make the right Investments. Just place your query with us & make the right 
+        choice in your Wealth Creation journey.
+      </p>
+
+      <div class="contact-details">
+        <p><strong>Email Us</strong></p>
+        <p>Contact: info@shrihanumatcapital.com</p>
+
+        <p><strong>WhatsApp/Call:</strong></p>
+        <p>+91-9911171525</p>
+        <p>+91 8510068836</p>
+      </div>
+    </div>
+  </section>
+
+
     <!-- Footer -->
     <footer>
         <div class="footer-content">
