@@ -23,20 +23,104 @@
             <li><a href="contact.php">Contact</a></li>
         </ul>
         <div class="menu-icon" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+            
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Our Financial Services</h1>
-            <p>Expert solutions for your financial future.</p>
-            <a href="#services" class="cta-btn">Explore Services</a>
-        </div>
-    </section>
+    <div class="container">
+   <div class="header">
+    <span class="tagline">
+     Services
+    </span>
+    <h1>
+     Stocks PMS/AIF
+    </h1>
+    <p>
+     Core Equity Research Team Providing Customized Equity Portfolios
+    </p>
+    <p class="tagline">
+     Long Term Wealth Creation For Investors having time horizon of minimum 3 years
+    </p>
+   </div>
+   <div class="section">
+    <h2>
+     STOCKS
+    </h2>
+    <img alt="Illustration of a person analyzing stocks on a computer" height="400" src="https://storage.googleapis.com/a1aa/image/rBC1BFrtKXpdJ9ZLgbuZXjv2AXWRQA7eZmmulKRhTanf9PoTA.jpg" width="600"/>
+    <ul>
+     <li>
+      <i class="fas fa-check">
+      </i>
+      Our robust research team is here to build quality Stocks portfolios for the investors.
+     </li>
+     <li>
+      <i class="fas fa-check">
+      </i>
+      Decide what amount you want to invest for 2/3 or 4/5 or 6 years.
+     </li>
+     <li>
+      <i class="fas fa-check">
+      </i>
+      Our team directs the stocks &amp; allocation to its ranks along with proper analysis report.
+     </li>
+     <li>
+      <i class="fas fa-check">
+      </i>
+      Long Term portfolio only with guidance till the point of exit.
+     </li>
+    </ul>
+   </div>
+   <div class="section">
+    <h2>
+     Portfolio Management Service
+    </h2>
+    <p>
+     PMS or Portfolio Management Service is a professional service where qualified and experienced portfolio managers backed by a research team manage equity portfolios on behalf of the client instead of clients managing themselves.
+    </p>
+    <p>
+     Our team will help you to choose the best from a wide array of PMS strategies offered by various AMCs.
+    </p>
+    <p>
+     Identify your financial goals with us and we direct the best fit.
+    </p>
+    <img alt="Illustration of a team managing portfolios" height="400" src="https://storage.googleapis.com/a1aa/image/mw1wBbXHlV7eaCZL5D0JYSmTNqoQ8flWIPPtE4mifl577fgOB.jpg" width="600"/>
+   </div>
+   <div class="section">
+    <h2>
+     Alternate Investment Fund
+    </h2>
+    <p>
+     Alternative Investment Fund is a special investment category that differs from conventional investment instruments like equities, mutual funds, bonds, etc. It is a privately pooled fund. Generally, institutions and HNIs invest in alternative investments as higher returns are sought.
+    </p>
+    <p>
+     Higher Returns along with lower volatility make AIFs a highly considerable investment category.
+    </p>
+    <img alt="Illustration of people discussing alternative investments" height="400" src="https://storage.googleapis.com/a1aa/image/zoHuPYc2PQ49N9rqnawggBrmQGkpxVCfxNafNI9yNq389PoTA.jpg" width="600"/>
+   </div>
+   <div class="features">
+    <div class="feature">
+     <h3>
+      Dedicated Relationship Manager
+     </h3>
+    </div>
+    <div class="feature">
+     <h3>
+      24*7 Whatsapp Support
+     </h3>
+    </div>
+    <div class="feature">
+     <h3>
+      Detailed Reports
+     </h3>
+    </div>
+    <div class="feature">
+     <h3>
+      On call discussion with our team
+     </h3>
+    </div>
+   </div>
+  </div>
 
     <!-- Services Section -->
     <section class="services" id="services">
@@ -69,13 +153,33 @@
                 <p>Smart tax strategies to help you minimize liabilities and enhance wealth growth.</p>
             </div>
 
-            <div class="service-card" id="service5">
+            <!-- <div class="service-card" id="service5">
                 <div class="icon">&#9889;</div>
                 <h3>Risk Management</h3>
                 <p>Identify, assess, and mitigate financial risks to protect your assets and investments.</p>
-            </div>
+            </div> -->
         </div>
     </section>
+
+    <div class="container5">
+        <div class="left-section">
+            <h1>Our Investment Philosophy</h1>
+            <p>At Shri Hanumat Capital Service Private Limited, our investment philosophy revolves around meticulous research, risk management, and client-centric strategies, ensuring consistent growth and wealth preservation in ever-evolving financial landscapes.</p>
+            <a href="#" class="button">Contact Us <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="right-section">
+            <h2>The Pillars of Our Investment Philosophy</h2>
+            <ul>
+                <li><i class='bx bx-check'></i> Huge Wealth Creation is possible only in long term horizon.</li>
+                <li><i class='bx bx-check'></i> Finding highly advantaged companies with moat</li>
+                <li><i class='bx bx-check'></i> We follow scuttlebutt approach of investing as a part of research</li>
+                <li><i class='bx bx-check'></i> Client focus - Investment strategies as per Client Risk Profiling & time horizon</li>
+                <li><i class='bx bx-check'></i> Value Investing & Margin of safety</li>
+                <li><i class='bx bx-check'></i> Skin in the Game</li>
+            </ul>
+        </div>
+    </div>
+
 
     <!-- Dynamic Footer -->
     <footer>

@@ -16,28 +16,35 @@
      
     <nav class="navbar">
     <div class="container">
-    <h2>Shri Hanumat Capital Services Private Limited</h2>
-       
-
+        <h2>Shri Hanumat Capital Services Private Limited</h2>
         
         <ul class="nav-links">
             <li><a href="#" class="active">Home</a></li>
             <li><a href="about.php">About Us</a></li>
-            <li><a href=" our services.php">Our Services</a></li>
+            
+            <!-- Our Services with dropdown -->
+            <li class="dropdown">
+                <a href="our services.php" class="dropdown-toggle">Our Services<i class='bx bx-chevron-down'></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="stock pms.php">Stocks PMS &AIF</a></li>
+                    <li><a href="mutual.php">Mutual Funds</a></li>
+                    <li><a href="#">Startup Investment</a></li>
+                    <li><a href="#">Insuarance</a></li>
+
+                </ul>
+            </li>
+            
             <li><a href="contact.php">Contact</a></li>
             <li><a href="sip info.php">SIP</a></li>
-
-            <li><a href="login.php" >Login</a></li>
+            <li><a href="login.php">Login</a></li>
             <div class="go">
-        <a href="term.php">Terms & Conditions</a>
-
-        </div>
-
+                <a href="term.php">Terms & Conditions</a>
+            </div>
         </ul>
+
         <div class="menu-toggle">&#9776;</div>
-</div>
-    </nav>
-    
+    </div>
+</nav>
 
     <!-- Hero Section -->
     <section class="hero">
@@ -135,6 +142,70 @@
       </div>
     </div>
   </section>
+  <div class="container4">
+   <h1>
+    Services We Provide
+   </h1>
+   <h2>
+    WIDE INVESTMENT OPTIONS
+   </h2>
+   <div class="services">
+    <div class="service">
+     <img alt="Icon of a bag of money, calculator, and coins" height="100" src="https://storage.googleapis.com/a1aa/image/YviWuvqvGE5ACNBc0KZYe1BHqfJCoYuavA66LeFfdL43jeBdC.jpg" width="100"/>
+     <h3>
+      Start a Mutual Fund SIP
+     </h3>
+     <p>
+      Choose from our wide array of mutual fund schemes catering to various combinations of goals and risk appetites. Start building your portfolio today.
+     </p>
+    </div>
+    <div class="service">
+     <img alt="Icon of a briefcase with charts and graphs" height="100" src="https://storage.googleapis.com/a1aa/image/Ovy3H5oTHtYeZywrzQHEc7YeX9qLzbBMu6gq9BM7WMZeRfgOB.jpg" width="100"/>
+     <h3>
+      Our Research Process
+     </h3>
+     <p>
+      When it comes to investments, gain from the right perspective! Our in-depth analysis helps you to invest in markets right away.
+     </p>
+    </div>
+    <div class="service">
+     <img alt="Icon of a target with arrows and financial symbols" height="100" src="https://storage.googleapis.com/a1aa/image/dPyq1tuz5yaXJV4XbMBQrLj8vk2bpAPySdPQiXC9JtNQ6D6E.jpg" width="100"/>
+     <h3>
+      Plan Your Goals
+     </h3>
+     <p>
+      We spend time to understand your needs and aspirations and prepare a financial investment plan based on your risk profile and goals to achieve them.
+     </p>
+    </div>
+    <div class="service">
+     <img alt="Icon of various financial symbols and graphs" height="100" src="https://storage.googleapis.com/a1aa/image/ET0K2bIvA0JHPZRDNnvTRUewQfm3oghP36ij86llO3z8oPoTA.jpg" width="100"/>
+     <h3>
+      The Value of Advice
+     </h3>
+     <p>
+      Pursuing your goals is easier when you’re not alone. The Fundzline App helps to know you and your financial picture to help create a wealth plan that evolves as your life does.
+     </p>
+    </div>
+    <div class="service">
+     <img alt="Icon of ELSS blocks with financial symbols" height="100" src="https://storage.googleapis.com/a1aa/image/iIdEFnyoM9r5Gxdln1ThN91p9Q4kv5eFUo7OfqFad64DpPoTA.jpg" width="100"/>
+     <h3>
+      Invest In ELSS &amp; Save Tax
+     </h3>
+     <p>
+      ELSS = Save Tax + Wealth Creation. ELSS is a tax saving scheme that allows investors to seek some capital appreciation with tax benefits.
+     </p>
+    </div>
+    <div class="service">
+     <img alt="Icon of hands holding a family" height="100" src="https://storage.googleapis.com/a1aa/image/yHZt0IWAfu2bXqJvT6AmQL45JAnQHG9fcwArw3gc3JpBpPoTA.jpg" width="100"/>
+     <h3>
+      Insure future of loved ones
+     </h3>
+     <p>
+      We find Best Insurance Plan, that’s right for you. Understand your insurance policy options. Identify the best value. Enjoy peace of mind.
+     </p>
+    </div>
+   </div>
+  </div>
 
   <section class="contact-section">
     <div class="form-container">
@@ -222,6 +293,13 @@
 
     // Change image every 3 seconds (3000 milliseconds)
     setInterval(showNextImage, 3000);
+
+    document.querySelector('.dropdown-toggle').addEventListener('click', function(event) {
+    event.preventDefault();
+    const dropdownMenu = this.nextElementSibling;
+    dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+});
+
 
 
 </script>

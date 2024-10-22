@@ -1,0 +1,338 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(270deg, #0c0337, #690b69, #410833, #0c0337);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    scroll-behavior: smooth;
+    color: #fff;
+}
+
+/* Keyframes for Gradient Animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Remaining styles (Navbar, Hero Section, etc.) remain unchanged... */
+
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #f8f8f8; /* Updated for better contrast */
+    transition: color 0.3s, transform 0.3s; /* Added transform for links */
+}
+
+a:hover {
+    color: #ff4500;
+    transform: scale(1.05); /* Slight scale on hover */
+}
+
+/* Navbar */
+.navbar {
+    background: #0b2f69;
+    color: white;
+    padding: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Added shadow */
+    position: sticky; /* Sticky navbar */
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container h2{
+    margin-top: 2rem;
+}
+
+.navbar-title {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    flex: 1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    padding: 8px 15px;
+    transition: background 0.3s, transform 0.3s; /* Added transform */
+    font-size: larger;
+}
+
+.nav-links li a.active {
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    color: aqua;
+    transform: translateY(-2px); /* Move up on hover */
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+.container1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0f7fa;
+    padding: 20px;
+}
+.header .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1a237e;
+}
+.header .subtitle {
+    font-size: 18px;
+    color: #1a237e;
+}
+.header .logos img {
+    margin: 0 10px;
+}
+.form-container {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h3 {
+    font-size: 24px;
+    color: #1a237e;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+.form-container form input, .form-container form textarea, .form-container form select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container form button {
+    padding: 10px;
+    background-color: #ffeb3b;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.services {
+    text-align: center;
+    margin: 40px 0;
+}
+.services h2 {
+    font-size: 24px;
+    color: #fff;
+}
+.services h3 {
+    font-size: 18px;
+    color: #fff;
+}
+.services .service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services .service-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+.services .service-item h4 {
+    font-size: 20px;
+    color: #1a237e;
+}
+.services .service-item p {
+    font-size: 14px;
+    color: #1a237e;
+}
+.explore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+.explore .text {
+    width: 50%;
+}
+.explore .text h2 {
+    font-size: 24px;
+    color: #fff;
+}
+.explore .text h3 {
+    font-size: 18px;
+    color: #1a237e;
+}
+.explore .text button {
+    padding: 10px;
+    background-color: #ffeb3b;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.explore .highlights {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+.explore .highlights h3 {
+    font-size: 18px;
+    color: #1a237e;
+}
+.explore .highlights ul {
+    list-style: none;
+    padding: 0;
+}
+.explore .highlights ul li {
+    font-size: 14px;
+    color: #1a237e;
+    margin: 10px 0;
+}
+.explore .graph {
+    width: 50%;
+    text-align: center;
+}
+.explore .graph img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background: linear-gradient(90deg, #011d2b, #0b32b1, #011d2b);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.footer-content {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+ul.socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul.socials li a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+ul.socials li a:hover {
+    color: #007bff;
+}
+
+.go a {
+    color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 10rem;
+}
+h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10rem;
+
+}
+p {
+    margin-bottom: 10px;
+    margin-left: 10rem;
+
+}
