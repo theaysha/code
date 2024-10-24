@@ -89,7 +89,7 @@
      </p>
     </div>
     <div class="member">
-     <img alt="CA Sukhman Kaur" height="150" src="retirement.jpeg" width="150"/>
+     <img alt="CA Sukhman Kaur" height="150" src="monika mam.jpg" width="150"/>
      <h3>
       Mrs.Monika singh
      </h3>
