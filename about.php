@@ -12,7 +12,7 @@
  </head>
  <body>
  <nav class="navbar">
-    <div class="container1">
+    <!-- <div class="container1">
     <h2>Shri Hanumat Capital Services Private Limited</h2>
        
 
@@ -31,8 +31,28 @@
         </div>
 
         </ul>
-        <div class="menu-toggle">&#9776;</div>
+        <span class="menu-toggle">&#9776;</span> 
+</div> -->
+
+<div class="container1">
+    <h1 class="navbar-title">Shri Hanumat Capital Services Private Limited</h1>
+    <span class="menu-toggle">&#9776;</span> <!-- Hamburger icon -->
+    <ul class="nav-links">
+    <li><a href="index.php">Home</a></li>
+            <li><a href="about.php" class="active">About Us</a></li>
+            <li><a href=" our services.php">Our Services</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="sip info.php">SIP</a></li>
+
+            <li><a href="login.php" >Login</a></li>
+            <div class="go">
+        <a href="term.php">Terms & Conditions</a>
+
+        </div>
+
+    </ul>
 </div>
+
     </nav>
   
 
@@ -250,4 +270,14 @@
         </div>
     </footer>
 </body>
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    navLinks.classList.toggle('active');
+});
+
+</script>
 </html>

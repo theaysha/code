@@ -373,3 +373,73 @@ ul.socials li a:hover {
 .go a {
     color: #fff;
 }
+/* Default styles apply to desktops and large screens */
+
+/* Tablet screens (600px to 900px) */
+@media screen and (max-width: 900px) {
+    .container1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content-section {
+        padding-left: 20px;
+    }
+    
+    .container, .container2, .container3, .container4 {
+        padding: 20px;
+    }
+
+    .item {
+        flex: 1 1 45%;
+        max-width: 45%;
+        padding: 10px;
+    }
+}
+
+/* Phone screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    /* Navbar */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #0b2f69;
+    }
+
+    .nav-links li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-toggle.active + .nav-links {
+        display: flex;
+    }
+
+    /* Responsive text sizes */
+    .hero h1, .content-section h1, .team-section h2 {
+        font-size: 24px;
+    }
+
+    .content-section p, .team-section .team .member p {
+        font-size: 14px;
+    }
+
+    .item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .image-section, .content-section {
+        flex-direction: column;
+        padding-left: 0;
+    }
+}
