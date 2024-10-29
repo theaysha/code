@@ -95,8 +95,8 @@
     <section class="home-section home-parallax home-fade home-full-height bg-dark-60 agency-page-header" id="home" data-background="assets/images/stocks.jpg">
       <div class="titan-caption">
         <div class="caption-content">
-          <div class="font-alt mb-30 titan-title-size-1">Grow your awesome idea</div>
-          <div class="font-alt mb-40 titan-title-size-4">Make business <span class="rotate">easy | simple | flexible</span>
+          <div class="font-alt mb-30 titan-title-size-1">Grow your Investment</div>
+          <div class="font-alt mb-40 titan-title-size-4">Make Investment <span class="rotate">easy | simple | flexible</span>
           </div><a class="section-scroll btn btn-border-w btn-circle" href="#about">Learn More</a>
         </div>
       </div>
@@ -134,7 +134,7 @@
       </section>
       <section class="module pt-0 pb-0" id="about">
         <div class="row position-relative m-0">
-          <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/section-14.jpg"></div>
+          <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/graph.webp"></div>
           <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
             <div class="row">
               <div class="col-sm-12">
