@@ -169,16 +169,16 @@
             <div class="col-sm-12">
               <ul class="filter font-alt" id="filters">
                 <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
-                <li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s">Illustration</a></li>
-                <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Marketing</a></li>
-                <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Photography</a></li>
-                <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Web Design</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s">Portfolio Management</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Equity Management</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Financial Planning</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s">Mutual Funds</a></li>
               </ul>
             </div>
           </div>
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-d" id="works-grid">
             <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image1.html">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio1.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/portfolio/management.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Corporate Identity</h3>
                   <div class="work-descr">Illustration</div>
@@ -192,7 +192,7 @@
                 </div>
               </a></li>
             <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio3.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/portfolio/management2.webp" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Disk Cover</h3>
                   <div class="work-descr">Illustration</div>
@@ -206,7 +206,7 @@
                 </div>
               </a></li>
             <li class="work-item illustration webdesign"><a href="portfolio_single_featured_video1.html">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio5.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/portfolio/use2.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Web Design</h3>
                   <div class="work-descr">Webdesign</div>
