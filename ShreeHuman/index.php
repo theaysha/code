@@ -139,9 +139,17 @@
             <div class="row">
               <div class="col-sm-12">
                 <h2 class="module-title font-alt align-left">About Us</h2>
-                <div class="module-subtitle font-serif align-left">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
-                <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
-                <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
+                <div class="module-subtitle font-serif align-left">Shri Hanumat Capital Services Private Limited is a financial services company focused on delivering a variety of investment and advisory solutions. Our mission is to empower clients with expert guidance and innovative financial strategies to help them achieve their financial objectives. We are committed to maintaining integrity, transparency, and excellence in service, with a team of experienced professionals providing customized solutions to meet the unique needs of our clients.</div>
+                <p>We offer a diverse range of investment products and services, including:</p>
+                <p><b>Stocks:</b> Invest in individual companies to gain direct exposure to their growth potential. <br> <br><b>Portfolio Management Services (PMS):</b> Enjoy personalized portfolio management tailored to your risk appetite and investment objectives. <br><br>
+
+<b>Alternative Investment Funds (AIFs):</b> Access a wide range of investment opportunities beyond traditional asset classes. <br><br>
+
+<b>Mutual Funds:</b> Diversify your investments across a basket of securities managed by professional fund managers.
+<br><br>
+<b>Startups Investing:</b> Opportunities to invest in Big Winners & Value Creator Startups. <br><br>
+
+<b>Insurance:</b> Life & Health</p>
               </div>
             </div>
           </div>
