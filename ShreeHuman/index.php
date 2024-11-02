@@ -9,7 +9,7 @@
     Document Title
     =============================================
     -->
-  <title>Titan | Multipurpose HTML5 Template</title>
+  <title>Shri Hanumat Capital Services Private Limited</title>
   <!--  
     Favicons
     =============================================
@@ -61,14 +61,16 @@
       <div class="loader">Loading...</div>
     </div>
     <nav class="navbar navbar-custom navbar-fixed-top navbar-transparent bg-dark-60" role="navigation">
-      <div class="container">
+      <div class="container text-center d-flex">
         <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Titan</a>
+          <button class="navbar-toggle text-center" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Shri Hanumat Capital Services Private Limited</a>
         </div>
+      </div>
+      <div class="container">
         <div class="collapse navbar-collapse" id="custom-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">Home</a></li>
-            <li class="dropdown"><a href="about.php" >About Us</a>
+            <li class="dropdown"><a href="about.php">About Us</a>
             </li>
             <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Our Services</a>
               <ul class="dropdown-menu" role="menu">
@@ -78,11 +80,10 @@
                 <li><a href="#">Insurance</a></li>
               </ul>
             </li>
-            <li class="dropdown"><a href="contact.php" >Contact</a></li>
-            <li class="dropdown"><a href="blog.php" >Blog</a></li>
-            <li class="dropdown"><a href="gallery.php" >Features</a></li>
-            <li class="dropdown"><a href="#" >Policy</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" href="documentation.html" data-toggle="dropdown">Register & Login</a>
+            <li class="dropdown"><a href="contact.php">Contact</a></li>
+            <li class="dropdown"><a href="blog.php">Blog</a></li>
+            <li class="dropdown"><a href="gallery.php">Features</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Register & Login</a>
               <ul class="dropdown-menu">
                 <li><a href="login_register.php">Register</a></li>
                 <li><a href="login_register.php">Login</a></li>
@@ -95,11 +96,17 @@
     <section class="home-section home-parallax home-fade home-full-height bg-dark-60 agency-page-header" id="home" data-background="assets/images/stocks.jpg">
       <div class="titan-caption">
         <div class="caption-content">
-          <div class="font-alt mb-30 titan-title-size-1">Grow your Investment</div>
-          <div class="font-alt mb-40 titan-title-size-4">Make Investment <span class="rotate">easy | simple | flexible</span>
-          </div><a class="section-scroll btn btn-border-w btn-circle" href="#about">Learn More</a>
+          <div class="font-alt mb-30 titan-title-size-3">Shaping Your Financial Future</div>
+          <div class="font-alt mb-40 titan-title-size-2">Providing Expert Financial Solutions for Growth and Success
+            <div class="font-alt mb-40 titan-title-size-1">We propel your financial journey with tailored solutions
+              in Stocks, PMS, AIF, Mutual Funds, Insurance &
+              Startups Investing offering expert guidance for
+              comprehensive wealth management and success in
+              your financial endeavors.
+              <!-- <span class="rotate">easy | simple | flexible</span> -->
+            </div><a class="section-scroll btn btn-border-w btn-circle" href="#about">Learn More</a>
+          </div>
         </div>
-      </div>
     </section>
     <div class="main">
       <section class="module">
@@ -108,25 +115,25 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="features-item">
                 <div class="features-icon"><span class="icon-lightbulb"></span></div>
-                <h3 class="features-title font-alt">Ideas and concepts</h3>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
+                <h3 class="features-title font-alt">STOCKS</h3>Our robust research team is here to build quality Stocks portfolios for the investors.
               </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="features-item">
                 <div class="features-icon"><span class="icon-tools"></span></div>
-                <h3 class="features-title font-alt">Designs &amp; interfaces</h3>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
+                <h3 class="features-title font-alt">Portfolio Management Service</h3>Our team will help you to choose the best from a wide array of PMS strategies offered by various AMCs.
               </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="features-item">
                 <div class="features-icon"><span class="icon-tools-2"></span></div>
-                <h3 class="features-title font-alt">Coding &amp; development</h3>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
+                <h3 class="features-title font-alt">Alternate Investment Fund</h3>Higher Returns along with lower volatility make AIFs a highly considerable investment category.
               </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="features-item">
                 <div class="features-icon"><span class="icon-lifesaver"></span></div>
-                <h3 class="features-title font-alt">Dedicated support</h3>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
+                <h3 class="features-title font-alt">24*7 Whatsapp Support</h3>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
               </div>
             </div>
           </div>
@@ -134,22 +141,13 @@
       </section>
       <section class="module pt-0 pb-0" id="about">
         <div class="row position-relative m-0">
-          <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/graph.webp"></div>
+          <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/about.jpg"></div>
           <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
             <div class="row">
               <div class="col-sm-12">
                 <h2 class="module-title font-alt align-left">About Us</h2>
-                <div class="module-subtitle font-serif align-left">Shri Hanumat Capital Services Private Limited is a financial services company focused on delivering a variety of investment and advisory solutions. Our mission is to empower clients with expert guidance and innovative financial strategies to help them achieve their financial objectives. We are committed to maintaining integrity, transparency, and excellence in service, with a team of experienced professionals providing customized solutions to meet the unique needs of our clients.</div>
-                <p>We offer a diverse range of investment products and services, including:</p>
-                <p><b>Stocks:</b> Invest in individual companies to gain direct exposure to their growth potential. <br> <br><b>Portfolio Management Services (PMS):</b> Enjoy personalized portfolio management tailored to your risk appetite and investment objectives. <br><br>
-
-<b>Alternative Investment Funds (AIFs):</b> Access a wide range of investment opportunities beyond traditional asset classes. <br><br>
-
-<b>Mutual Funds:</b> Diversify your investments across a basket of securities managed by professional fund managers.
-<br><br>
-<b>Startups Investing:</b> Opportunities to invest in Big Winners & Value Creator Startups. <br><br>
-
-<b>Insurance:</b> Life & Health</p>
+                <div class="module-subtitle font-serif align-left">Shri Hanumat Capital Services Private Limited </div>
+                <p>Shri Hanumat Capital Services Private Limited is an Investment Services Group. Shri Hanumat Capital Services Private Limited's team has its core competence in Equity Research Analysis & Portfolio Management. The team is engaged in planning and handling customised, unconflicted investments for Retail and clients. The team provides Professional Investment services for investments in Indian equities & debt instruments to Individuals, corporates and family offices.</p>
               </div>
             </div>
           </div>
@@ -178,45 +176,45 @@
           </div>
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-d" id="works-grid">
             <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image1.html">
-                <div class="work-image"><img src="assets/images/portfolio/management.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/fund.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Corporate Identity</h3>
-                  <div class="work-descr">Illustration</div>
+                  <h3 class="work-title">Start a Mutual Fund SIP</h3>
+                  <div class="work-descr">Choose from our wide array of mutual fund schemes catering to various combinations of goals and risk appetites. Start building your portfolio today.</div>
                 </div>
               </a></li>
             <li class="work-item marketing photography"><a href="portfolio_single_featured_image2.html">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio2.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/research.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Bag MockUp</h3>
-                  <div class="work-descr">Marketing</div>
+                  <h3 class="work-title">Our Research Process</h3>
+                  <div class="work-descr">When it comes to investments, gain from the right perspective! Our in-depth analysis helps you to invest in markets right away.</div>
                 </div>
               </a></li>
             <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
-                <div class="work-image"><img src="assets/images/portfolio/management2.webp" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/goals.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Disk Cover</h3>
-                  <div class="work-descr">Illustration</div>
+                  <h3 class="work-title">Plan Your Goals</h3>
+                  <div class="work-descr">We spend time to understand your needs and aspirations and prepare a financial investment plan based on your risk profile and goals to achieve them.</div>
                 </div>
               </a></li>
             <li class="work-item marketing photography"><a href="portfolio_single_featured_slider2.htmll">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio4.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/advice.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Business Card</h3>
-                  <div class="work-descr">Photography</div>
+                  <h3 class="work-title">The Value of Advice</h3>
+                  <div class="work-descr">Pursuing your goals is easier when you’re not alone. The Fundzline App helps to know you and your financial picture to help create a wealth plan that evolves as your life does.</div>
                 </div>
               </a></li>
             <li class="work-item illustration webdesign"><a href="portfolio_single_featured_video1.html">
-                <div class="work-image"><img src="assets/images/portfolio/use2.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/savetax.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Web Design</h3>
-                  <div class="work-descr">Webdesign</div>
+                  <h3 class="work-title">Invest In ELSS & Save Tax</h3>
+                  <div class="work-descr">ELSS = Save Tax + Wealth Creation. ELSS is a tax saving scheme that allows investors to seek some capital appreciation with tax benefits.</div>
                 </div>
               </a></li>
             <li class="work-item marketing webdesign"><a href="portfolio_single_featured_video2.html">
-                <div class="work-image"><img src="assets/images/portfolio/grid-portfolio6.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/insure.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Paper clip</h3>
-                  <div class="work-descr">Marketing</div>
+                  <h3 class="work-title">Insure future of loved ones</h3>
+                  <div class="work-descr">We find Best Insurance Plan, that’s right for you. Understand your insurance policy options. Identify the best value. Enjoy peace of mind.</div>
                 </div>
               </a></li>
           </ul>
@@ -303,23 +301,23 @@
               <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                   <div class="panel-heading">
-                    <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#support1">Support Question 1</a></h4>
+                    <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#support1">Why Choose Shri Hanumat Capital Services Private Limited ?</a></h4>
                   </div>
                   <div class="panel-collapse collapse in" id="support1">
-                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    <div class="panel-body">Shri Hanumat Capital Services Private Limited is an Investment Services Group. Shri Hanumat Capital Services Private Limited's team has its core competence in Equity Research Analysis & Portfolio Management. The team is engaged in planning and handling customised, unconflicted investments for Retail and clients. The team provides Professional Investment services for investments in Indian equities & debt instruments to Individuals, corporates and family offices.
                     </div>
                   </div>
                 </div>
                 <div class="panel panel-default">
                   <div class="panel-heading">
-                    <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support2">Support Question 2</a></h4>
+                    <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support2">What you provide ?</a></h4>
                   </div>
                   <div class="panel-collapse collapse" id="support2">
-                    <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    <div class="panel-body">At Shri Hanumat Capital Services Private Limited , we offer a comprehensive suite of financial services, including Stocks, PMS/AIF, Mutual Funds, Startup Investments and Insurance. All your financial assets grow at one place.
                     </div>
                   </div>
                 </div>
-                <div class="panel panel-default">
+                <!-- <div class="panel panel-default">
                   <div class="panel-heading">
                     <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support3">Support Question 3</a></h4>
                   </div>
@@ -327,8 +325,8 @@
                     <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
                     </div>
                   </div>
-                </div>
-                <div class="panel panel-default">
+                </div> -->
+                <!-- <div class="panel panel-default">
                   <div class="panel-heading">
                     <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support4">Support Question 4</a></h4>
                   </div>
@@ -336,10 +334,10 @@
                     <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
-            <div class="col-sm-6">
+            <!-- <div class="col-sm-6">
               <h4 class="font-alt mb-30">Our Expertises</h4>
               <h6 class="font-alt"><span class="icon-tools-2"></span> Development
               </h6>
@@ -371,11 +369,11 @@
               <div class="progress">
                 <div class="progress-bar pb-dark" aria-valuenow="100" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
-      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/testimonial_bg.jpg">
+      <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/slider-2.png">
         <div class="testimonials-slider pt-140 pb-140">
           <ul class="slides">
             <li>
@@ -487,11 +485,11 @@
             <div class="col-sm-4">
               <div class="alt-features-item mt-0">
                 <div class="alt-features-icon"><span class="icon-megaphone"></span></div>
-                <h3 class="alt-features-title font-alt">Where to meet</h3>Titan Company<br />23 Greate Street<br />Los Angeles, 12345 LS
+                <h3 class="alt-features-title font-alt">Where to meet</h3>Shri Hunumat Capital Services Private Limited<br />Ashoka enclave part-2 sector-37 second floor near samarpan hospital,<br />Faridabad, India, Haryana
               </div>
               <div class="alt-features-item mt-xs-60">
                 <div class="alt-features-icon"><span class="icon-map"></span></div>
-                <h3 class="alt-features-title font-alt">Say Hello</h3>Email: somecompany@example.com<br />Phone: +1 234 567 89 10
+                <h3 class="alt-features-title font-alt">Say Hello</h3>Email: contact@hanumatcapital.com<br />Phone: +91 9911171525
               </div>
             </div>
           </div>
@@ -503,9 +501,10 @@
             <div class="col-sm-3">
               <div class="widget">
                 <h5 class="widget-title font-alt">About Titan</h5>
-                <p>The languages only differ in their grammar, their pronunciation and their most common words.</p>
-                <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
-                <p>Email:<a href="#">somecompany@example.com</a></p>
+                <p>We propel your financial journey with tailored solutions
+                  in Stocks, PMS, AIF, Mutual Funds, Insurance</p>
+                <p>Phone: +91 9911171525
+                <p>Email:<a href="index.php">contact@hanumatcapital.com</a></p>
               </div>
             </div>
             <div class="col-sm-3">
@@ -561,7 +560,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
-              <p class="copyright font-alt">&copy; 2017&nbsp;<a href="index.html">TitaN</a>, All Rights Reserved</p>
+              <p class="copyright font-alt">&copy; 2024&nbsp;<a href="index.html">Shri Hanumat Capital Service Pvt. Ltd.</a>, All Rights Reserved</p>
             </div>
             <div class="col-sm-6">
               <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
