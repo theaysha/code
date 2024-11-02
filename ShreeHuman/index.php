@@ -96,9 +96,17 @@
     <section class="home-section home-parallax home-fade home-full-height bg-dark-60 agency-page-header" id="home" data-background="assets/images/stocks.jpg">
       <div class="titan-caption">
         <div class="caption-content">
-          </div><a class="section-scroll btn btn-border-w btn-circle" href="#about">Learn More</a>
+          <div class="font-alt mb-30 titan-title-size-3">Shaping Your Financial Future</div>
+          <div class="font-alt mb-40 titan-title-size-2">Providing Expert Financial Solutions for Growth and Success
+            <div class="font-alt mb-40 titan-title-size-1">We propel your financial journey with tailored solutions
+              in Stocks, PMS, AIF, Mutual Funds, Insurance &
+              Startups Investing offering expert guidance for
+              comprehensive wealth management and success in
+              your financial endeavors.
+              <!-- <span class="rotate">easy | simple | flexible</span> -->
+            </div><a class="section-scroll btn btn-border-w btn-circle" href="#about">Learn More</a>
+          </div>
         </div>
-      </div>
     </section>
     <div class="main">
       <section class="module">
@@ -133,10 +141,13 @@
       </section>
       <section class="module pt-0 pb-0" id="about">
         <div class="row position-relative m-0">
+          <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/about.jpg"></div>
           <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
             <div class="row">
               <div class="col-sm-12">
                 <h2 class="module-title font-alt align-left">About Us</h2>
+                <div class="module-subtitle font-serif align-left">Shri Hanumat Capital Services Private Limited </div>
+                <p>Shri Hanumat Capital Services Private Limited is an Investment Services Group. Shri Hanumat Capital Services Private Limited's team has its core competence in Equity Research Analysis & Portfolio Management. The team is engaged in planning and handling customised, unconflicted investments for Retail and clients. The team provides Professional Investment services for investments in Indian equities & debt instruments to Individuals, corporates and family offices.</p>
               </div>
             </div>
           </div>
@@ -165,7 +176,7 @@
           </div>
           <ul class="works-grid works-grid-gut works-grid-3 works-hover-d" id="works-grid">
             <li class="work-item illustration webdesign"><a href="portfolio_single_featured_image1.html">
-            <div class="work-image"><img src="assets/images/fund.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/fund.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Start a Mutual Fund SIP</h3>
                   <div class="work-descr">Choose from our wide array of mutual fund schemes catering to various combinations of goals and risk appetites. Start building your portfolio today.</div>
@@ -179,7 +190,7 @@
                 </div>
               </a></li>
             <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
-            <div class="work-image"><img src="assets/images/goals.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/goals.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Plan Your Goals</h3>
                   <div class="work-descr">We spend time to understand your needs and aspirations and prepare a financial investment plan based on your risk profile and goals to achieve them.</div>
@@ -193,7 +204,7 @@
                 </div>
               </a></li>
             <li class="work-item illustration webdesign"><a href="portfolio_single_featured_video1.html">
-            <div class="work-image"><img src="assets/images/savetax.jpg" alt="Portfolio Item" /></div>
+                <div class="work-image"><img src="assets/images/savetax.jpg" alt="Portfolio Item" /></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Invest In ELSS & Save Tax</h3>
                   <div class="work-descr">ELSS = Save Tax + Wealth Creation. ELSS is a tax saving scheme that allows investors to seek some capital appreciation with tax benefits.</div>
@@ -491,7 +502,7 @@
               <div class="widget">
                 <h5 class="widget-title font-alt">About Titan</h5>
                 <p>We propel your financial journey with tailored solutions
-                in Stocks, PMS, AIF, Mutual Funds, Insurance</p>
+                  in Stocks, PMS, AIF, Mutual Funds, Insurance</p>
                 <p>Phone: +91 9911171525
                 <p>Email:<a href="index.php">contact@hanumatcapital.com</a></p>
               </div>
