@@ -96,7 +96,7 @@
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
                 <h2 class="module-title font-alt">About</h2>
-                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                <div class="module-subtitle font-serif">Shri Hanumat Capital Services Private Limited is an Investment Services Group. Shri Hanumat Capital Services Private Limited’s team has its core competence in Equity Research Analysis & Portfolio Management.</div>
               </div>
             </div>
           </div>
