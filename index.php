@@ -113,7 +113,7 @@
         <div class="service-icon">
           <img src="connect.png" alt="Stocks PMS/AIF">
         </div>
-        <h3>Stocks PMS/AIF</h3>
+       <a href="stock pms.php"><h3>Stocks PMS/AIF</h3></a> 
         <span class="arrow">→</span>
       </div>
 
@@ -121,7 +121,7 @@
         <div class="service-icon">
           <img src="mutual.jpeg" alt="Mutual Funds">
         </div>
-        <h3>Mutual Funds</h3>
+       <a href="mutual.php"> <h3>Mutual Funds</h3></a>
         <span class="arrow">→</span>
       </div>
 
@@ -129,7 +129,7 @@
         <div class="service-icon">
           <img src="investment.png" alt="Startup Investments">
         </div>
-        <h3>Startup Investments</h3>
+       <a href="new new.php"> <h3>Startup Investments</h3>
         <span class="arrow">→</span>
       </div>
 
@@ -230,7 +230,7 @@
 
       <div class="contact-details">
         <p><strong>Email Us</strong></p>
-        <p>Contact: info@shrihanumatcapital.com</p>
+        <p>Contact: info@shrihanumatcspl090524@gmail.com</p>
 
         <p><strong>WhatsApp/Call:</strong></p>
         <p>+91-9911171525</p>
@@ -243,7 +243,7 @@
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <p>Contact: info@shrihanumatcapital.com | +91 9911171525</p>
+            <p>Contact: info shrihanumatcspl090524@gmail.com | +91 9911171525</p>
             <ul class="socials">
                 <li><a href="https://www.facebook.com/share/JaFez9VAptHvSKux/"><i class='bx bxl-facebook-circle'></i></a></li>
                 <li><a href="https://x.com/services37736?t=1p9mH_NBXTFVBquX6vAdpQ&s=09"><i class='bx bxl-twitter' ></i></a></li>

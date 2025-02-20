@@ -256,7 +256,7 @@
   </div>
   <footer>
         <div class="footer-content">
-            <p>Contact: info@shrihanumatcapital.com | +91 9911171525</p>
+        <p>    <a href="mailto:support@shrihanumatcspl090524@gmail.com"> Contact: info shrihanumatcapitalpvt.ltd@gmial.com  </a>| +91 9911171525 </p>
             <ul class="socials">
                 <li><a href="https://www.facebook.com/share/JaFez9VAptHvSKux/"><i class='bx bxl-facebook-circle'></i></a></li>
                 <li><a href="https://x.com/services37736?t=1p9mH_NBXTFVBquX6vAdpQ&s=09"><i class='bx bxl-twitter' ></i></a></li>
